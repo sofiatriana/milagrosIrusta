@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.logo-navbar{
+    width: 60%;
+}
+
+#inicio .titulo{
+    font-size: 5em;
+    font-weight: 700;
+    margin-top: 1em;
+}
+#inicio .subtitulo{
+    font-size: 1.5em;
+}
+#inicio .subtitulo, .parrafo{
+    font-weight: 400;
+}
+
+.enlace-boton,
+.enlace-boton3 { 
+    padding: 0.70em;
+    background-color: #5a75ff;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+ }
+ .enlace-boton:hover,
+ .enlace-boton3:hover {
+    background-color:#395aff;
+    color: #ffffff;
+ }
+ .enlace-boton2{
+     padding: 0.70em 2em;
+     background-color: #ffffff;
+     border: 1px solid #d1d1d1;
+     color: #000;
+     text-decoration: none;
+     font-weight: 700;
+ }
+ .enlace-boton2:hover{
+     background-color: #e6e4e4;
+     color: #000;
+ }
+.expand_more{
+     font-size: 10em;
+     color: #5a75ff;
+}
+
+#servicios{
+    box-shadow:inset 0 0 100px #d3d3d3;
+}
+.frase, 
+.titulo-servicios,
+.add-icon{
+    color: #5a75ff;
+}
+.servicios, 
+.sobre-mi-titulo,
+.portafolio-titulo,
+.contacto-titulo {
+    font-weight: 700;
+    font-size: 3em;
+}
+.icons-servicios{
+    padding: 0.3em;
+    border: 0.05em solid #5a75ff;
+    border-radius: 50%;
+    color: #5a75ff;
+    font-size: 6em;
+    font-weight: 700;
+}
+.add-icon{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+#sobreMi{
+    background-color: #5a75ff;
+}
+.titulo,
+.div-vacio{
+    background-color: #ffffff;
+}
+.parrafo-sobremi{
+    width: 50%;
+    margin-left: 2em;
+}
+
+.trabajo-portafolio{
+    width: 100%;
+}
+.trabajo-portafolio figure{
+    position: relative;
+    /* height: 500px;
+    width: 450px; */
+    overflow: hidden;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0 , 0.50);
+    cursor: pointer;
+}
+.trabajo-portafolio figure img{
+    width: 550px;
+    height: 300px;
+    transition: all 500ms ease-out;
+    object-fit: cover;
+
+}
+.trabajo-portafolio figure .portafolio-hover{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #bac5f8, #617bff);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: 0;
+}
+.trabajo-portafolio figure:hover .portafolio-hover{
+    opacity: 1;
+    visibility: visible;
+}
+.ver-boton{
+    padding: 10px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+}
+.ver-boton:hover{
+    color: #ffffff;
+    background: #93a7ff;
+}
+
+.trabajo-portafolio, 
+#contacto{
+    background-color: #f3f4f7;
+}
+.div-vacio{
+    margin: 40px;
+}
+
+
+.enlace-boton3{
+    padding: 0.70em 2em;
+}
+.logo{
+    width: 150px;
+}
+.icon-linkdin{
+    width: 35px;
+}
+ul li{
+    list-style: none;
+    color: #000;
+    font-weight: 700;
+}
+
+
